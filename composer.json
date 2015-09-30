@@ -2,6 +2,11 @@
     "name" : "ravikumar8/cleanphp",
     "description" : "CleanPhp",
     "license" : "MIT",
+    "autoload": {
+        "psr-4": {
+            "CleanPhp\\Invoicer\\": ["src/"]
+        }
+    },
     "require-dev": {
         "peridot-php/peridot": "~1.15",
         "peridot-php/peridot-prophecy-plugin": "^1.1",
