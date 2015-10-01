@@ -4,8 +4,9 @@
     "license" : "MIT",
     "autoload": {
         "psr-4": {
-            "CleanPhp\\Invoicer\\": ["src/"]
-        }
+            "CleanPhp\\Invoicer\\": ["src"]
+        },
+        "classmap": ["src/"]
     },
     "require-dev": {
         "peridot-php/peridot": "~1.15",
